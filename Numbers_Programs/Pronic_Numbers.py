@@ -11,6 +11,7 @@ n=int(input("Enter the Number: "))
 Check_Pronic(n)
 '''
 #print all the pronic numbers within a given range
+
 def Check_Pronic(n):
     for i in range(1,n):
         if(n==i*(i+1)):
