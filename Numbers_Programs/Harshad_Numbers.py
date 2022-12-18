@@ -25,7 +25,7 @@ def Harshad_Num(n):
     n=n//10
   return sum
 print("List of all the Harshad Numbers in given Range: ")
-for i in range(1,130):
+for i in range(1,110):
     res=Harshad_Num(i)
     if(i%res==0):
         print(i,end=" ")
